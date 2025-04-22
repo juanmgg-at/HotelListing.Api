@@ -7,7 +7,7 @@ namespace HotelListing.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HotelsController : ControllerBase
+    public class HotelsController :  ControllerBase
     {
 
 
@@ -94,6 +94,12 @@ namespace HotelListing.Api.Controllers
 
             return NoContent();
 
+
+            //change
+
         }
+
+        // Test
+        public int MyProperty { get; set; }
     }
 }
